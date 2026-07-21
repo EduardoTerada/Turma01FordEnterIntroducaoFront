@@ -74,11 +74,11 @@
     transform: rotateZ(-360deg) scale(1,5);
 }
 .fundo{
-    background-image: url(/assets/img/fundo.jpeg);
+    background-image: url(../img/fundo.jpeg);
 }
 .texto{
     color: white;
     font-weight: bold;
-    
+
 }
 
