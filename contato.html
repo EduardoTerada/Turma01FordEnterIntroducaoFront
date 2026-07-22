@@ -4,9 +4,10 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Contato</title>
+    <link rel="stylesheet" href="assets/CSS/style.css">
 </head>
-<body>
-    <ul>
+<body class="fundo">
+    <ul id="menu">
         <li>
             <a href="index.html">Home</a>
         </li>
@@ -14,8 +15,11 @@
             <a href="contato.html">Contato</a>
         </li>
     </ul>
-    <h1 style="color:pink; background-color: blue;font-weight: bold;text-align: center;">Entre em contato comigo</h1>
-    <form>
+    <h1 class="center titulo">Entre em contato comigo</h1>
+
+    <div class="container texto">
+        <div class="p-30">
+            <form>
             <label for="nome">Nome:</label><br>
             <input type="text"id="nome">
             <br>
@@ -23,23 +27,58 @@
             <input type="email"id="email">
             <br>
             <label for="assunto">assunto</label><br>
-            <textarea name="assunto" id="assunto" cols=""60" rows="5" ></textarea>
+            <textarea name="assunto" id="assunto" cols="60" rows="5" ></textarea>
             <br>
             <button type="button" style="background-color: green; color: white; padding: 15px";">Enviar</button>
 
-    </form>
-    <p style="font-size: 20pt; font-weight: bold;"> Rua Moreira de Godoi, 226</p>
-    <p> Ipiranga - São Paulo/SP</p>
+            </form>
 
-    <iframe 
-    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3656.3406361664765!2d-46.61426152466893!3d-23.592113478778685!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce5be9f18cc133%3A0x31d7109e36d95a16!2sR.%20Moreira%20de%20God%C3%B3i%2C%20226%20-%20Ipiranga%2C%20S%C3%A3o%20Paulo%20-%20SP%2C%2004266-060!5e0!3m2!1spt-BR!2sbr!4v1784151219043!5m2!1spt-BR!2sbr" 
-    width="600" 
-    height="450" 
-    style="border:0;" 
-    allowfullscreen="" 
-    loading="lazy" 
-    referrerpolicy="strict-origin-when-cross-origin">
-</iframe>
+         </div>
+            <div>
+                <p> Rua Moreira de Godoi, 226</p>
+                <p> Ipiranga - São Paulo/SP</p>
+
+                <iframe 
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3656.3406361664765!2d-46.61426152466893!3d-23.592113478778685!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce5be9f18cc133%3A0x31d7109e36d95a16!2sR.%20Moreira%20de%20God%C3%B3i%2C%20226%20-%20Ipiranga%2C%20S%C3%A3o%20Paulo%20-%20SP%2C%2004266-060!5e0!3m2!1spt-BR!2sbr!4v1784151219043!5m2!1spt-BR!2sbr" 
+                width="600" 
+                height="450" 
+                style="border:0;" 
+                allowfullscreen="" 
+                loading="lazy" 
+                referrerpolicy="strict-origin-when-cross-origin">
+                </iframe>
+
+
+
+            </div>
+        
+
+         
+
+    </div>
+    <hr>
+
+    <div class="container">
+        <a href="https://www.linkedin.com/feed/" target="_blank">
+            <img class="tm-social p-30 rs1" src="assets/img/linkedin.jpeg" alt="logo linkedin">
+        </a>
+        <a href="https://www.facebook.com/" target="_blank">
+            <img class="tm-social p-30 rs1" src="assets/img/facebook.jpeg" alt="logo facebook">
+        </a>
+        <a href="https://www.instagram.com/" target="_blank">
+            <img class="tm-social p-30 rs1" src="assets/img/instagram.jpeg" alt="logo instagram">
+        <a href="https://https://web.whatsapp.com/" target="_blank">
+            <img class="tm-social p-30 rs1" src="assets/img/whatappjpg.jpg" alt="logo whatsapp">
+        </a>
+            
+        </div>
+        <p class="center texto">
+
+             Todos os direitos reservados : Eduardo &copy;
+
+        </p>
+    
+   
     
 </body>
 </html>
